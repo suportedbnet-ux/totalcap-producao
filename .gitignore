@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+backend/.venv/
+backend/venv/
+env/
+venv/
+.env
+backend/.env
+
+# NodeJS
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Database
+*.db
+*.sqlite
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Vercel
+.vercel/
+
+# Scratch files
+scratch/
+scratch_*.py
+verify_servico_fix.py
+update_faturas_parcela_logic*.py
+apply_servico_id_fix.py
+verify_admin.py
+*.log
+
+# Mobile Build Artifacts
+*.apk
+mobile/android/.gradle/
+mobile/android/build/
+mobile/android/app/build/
+mobile/android/app/.cxx/
+mobile/android/app/src/main/assets/
+!mobile/assets/

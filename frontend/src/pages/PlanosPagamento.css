@@ -1,0 +1,70 @@
+.planos-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title-icon {
+  color: #2563eb;
+}
+
+.parcela-badge {
+  background: rgba(37, 99, 235, 0.1);
+  color: #2563eb;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.intervalo-badge {
+  background: rgba(16, 185, 129, 0.1);
+  color: #059669;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.plan-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-name {
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 0.95rem;
+}
+
+/* Modal specific styles */
+.checkbox-group {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.checkbox-group label {
+  font-weight: 600;
+  color: #475569;
+  cursor: pointer;
+  margin: 0;
+}
+
+/* Print styles */
+@media print {
+  .header-actions, .table-toolbar, .action-buttons, .status-badge {
+    display: none !important;
+  }
+  
+  .planos-container {
+    padding: 0;
+  }
+}
